@@ -15,9 +15,16 @@
 
 <div class="container">
 
-    <?php 
-        
-       require load();
+    <?php
+    
+        try{
+
+            require load();
+
+        }catch(Exception $e){
+
+            echo $e->getMessage();
+        }
 
     ?>
 
