@@ -1,2 +1,2 @@
 # php-basics-2
-Studying some PHP structuress
+Studying some PHP structures
