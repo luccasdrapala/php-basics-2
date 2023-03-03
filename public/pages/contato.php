@@ -22,8 +22,8 @@
     <br>
 
     <div class="form-group">
-        <label for="mensagem">Mensagem</label>
-        <textarea class="form-control" name="mensagem" id="mensagem" cols="30" rows="5">Digite sua mensagem</textarea>
+        <label for="message">Mensagem</label>
+        <textarea class="form-control" name="message" id="message" cols="30" rows="5" placeholder="Digite sua mensagem"></textarea>
     </div>
     <br>
 
