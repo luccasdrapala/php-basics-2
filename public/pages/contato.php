@@ -1,5 +1,6 @@
+<?= getFlash('message') ?>
+
 <h2>Contato</h2>
-<br>
 
 <form action="../pages/forms/form-contato.php" method="post">
     
