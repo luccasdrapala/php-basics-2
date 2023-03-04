@@ -30,8 +30,18 @@ function validate(array $fields) {
     return (object) $validate;
 }
 
-// function isEmpty(){
+function isEmpty(){
 
+    $request = getRequest();
 
+    $empty = false;
 
-// }
+    foreach($request as $key => $fields){
+        
+        if(empty($request[$key])){
+            $empty = true;
+        }
+    }
+
+    return $empty;
+}
