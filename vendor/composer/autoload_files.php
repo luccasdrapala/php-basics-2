@@ -10,4 +10,5 @@ return array(
     '0c48edfd83033889f779790f8f59dd48' => $baseDir . '/app/functions/pages.php',
     '1a034cec71159224725114f89a820cf1' => $baseDir . '/app/functions/validate.php',
     '06e2cc845cd457b9c47e81e7c59d160b' => $baseDir . '/app/functions/flash.php',
+    '832debbbcfeab8700db6cef00613e4fc' => $baseDir . '/app/functions/email.php',
 );
