@@ -14,7 +14,7 @@ if(isEmpty()){
     header("location:/?page=contato");
 }
 
-// seto os tipos do validae, vao cair no swith por tipo de dado
+// seto os tipos do validate, vao cair no swith por tipo de dado
 
 $validate = validate([
     'name' => 's',
@@ -22,5 +22,7 @@ $validate = validate([
     'subject' => 's',
     'message' => 's' 
 ]);
+
+
 
 ?>
