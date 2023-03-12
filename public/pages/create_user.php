@@ -1,6 +1,6 @@
 <h2>Cadastrar Usuário</h2>
 
-<form action="./forms/form_create_user.php" method="post">
+<form action="../pages/forms/form-create-user.php" method="post">
 
 <div class="form-group">
     <label for="name">Nome</label>

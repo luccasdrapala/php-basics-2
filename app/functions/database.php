@@ -10,8 +10,9 @@ function connection(){
 
 }
 
-function create(){
-
+function create($table, $fields){
+    $pdo = connection();
+    
 }
 
 function update() {

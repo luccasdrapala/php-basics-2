@@ -7,11 +7,11 @@ echo 'Hello World cadastrar !!!<br>';
 if(isEmpty()){
     setFlash('message', 'Preencha todos os campos', 'danger');
 
-    header("location:/?page=contato");
+    header("location:/?page=create_user");
 } else {
     setFlash('message', 'Os dados foram preenchidos corretamente', 'success');
     
-    header("location:/?page=contato");
+    header("location:/?page=create_user");
 }
 
 $validate = validate([
@@ -27,5 +27,5 @@ if($cadastro){
     
     setflash('message', 'Cadastrado com sucesso', 'success');
 
-    return redirect('create_user');
+    //return redirect('create_user');
 }
