@@ -22,7 +22,3 @@ $validate = validate([
     'subject' => 's',
     'message' => 's' 
 ]);
-
-
-
-?>

@@ -1,5 +1,7 @@
 <h2>Cadastrar Usuário</h2>
 
+<?php getflash('message')?>
+
 <form action="../pages/forms/form-create-user.php" method="post">
 
 <div class="form-group">
